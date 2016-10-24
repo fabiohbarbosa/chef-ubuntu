@@ -5,6 +5,7 @@ Provision Ubuntu physical installation
 ## Install
 
 ### Prerequisites
+1. To be sudo user
 1. Git
 
 ### Run Install
