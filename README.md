@@ -1,5 +1,7 @@
 # My Ubuntu Cookbook #
 
+Provision Ubuntu physical installation
+
 ## Install
 
 ```sh
