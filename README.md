@@ -4,6 +4,11 @@ Provision Ubuntu physical installation
 
 ## Install
 
+### Prerequisites
+1. Git
+
+### Run Install
+
 ```sh
 ./install.sh
 ```
@@ -15,7 +20,7 @@ Provision Ubuntu physical installation
 1. Docker
 1. Docker Compose
 
-### Run
+### Run Build
 
 ```sh
 ./build.sh
