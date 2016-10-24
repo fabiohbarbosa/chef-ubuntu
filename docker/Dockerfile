@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 USER root
 
 RUN apt-get update && \
-    apt-get install ruby-full build-essential sudo wget -y
+    apt-get install ruby-full build-essential sudo git -y
 
 RUN gem update --no-rdoc --no-ri && \
     gem install berkshelf ohai chef --no-rdoc --no-ri
