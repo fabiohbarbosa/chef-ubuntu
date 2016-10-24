@@ -20,6 +20,8 @@
     "recipe[my-docker]",
     "recipe[my-atom]",
     "recipe[my-git]",
+    "recipe[my-synapse]",
+    "recipe[my-sublime-text]",
     "recipe[google-chrome]",
     "recipe[vagrant]"
   ]
