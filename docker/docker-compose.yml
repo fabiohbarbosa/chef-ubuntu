@@ -1,0 +1,5 @@
+ubuntu-for-cookbook:
+  image: fabiohbarbosa/chef-ubuntu
+  container_name: chef-ubuntu
+  volumes:
+    - ../:/opt/chef-ubuntu

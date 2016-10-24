@@ -1,0 +1,23 @@
+{
+  "java": {
+    "install_flavor": "oracle",
+    "jdk_version": 8,
+    "oracle": {
+        "accept_oracle_download_terms": true
+    },
+    "set_etc_environment": true
+  },
+  "maven": {
+    "m2_home": "/opt/apache-maven"
+  },
+  "run_list": [
+    "recipe[java]",
+    "recipe[maven]",
+    "recipe[openvpn]",
+    "recipe[sudo-nopasswd]",
+    "recipe[my-maven]",
+    "recipe[my-nodejs]",
+    "recipe[my-docker]",
+    "recipe[my-atom]"
+  ]
+}
