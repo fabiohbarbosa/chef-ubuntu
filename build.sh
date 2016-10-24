@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo rm -rf local-mode-cache/ nodes/
+sudo rm -rf local-mode-cache/ nodes/ Berksfile.lock
 cd docker && \
   docker-compose stop && \
   docker-compose rm --all -f && \
