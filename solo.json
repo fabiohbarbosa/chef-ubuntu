@@ -18,6 +18,9 @@
     "recipe[my-maven]",
     "recipe[my-nodejs]",
     "recipe[my-docker]",
-    "recipe[my-atom]"
+    "recipe[my-atom]",
+    "recipe[my-git]",
+    "recipe[google-chrome]",
+    "recipe[vagrant]"
   ]
 }
