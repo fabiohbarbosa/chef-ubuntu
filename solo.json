@@ -10,20 +10,11 @@
   "maven": {
     "m2_home": "/opt/apache-maven"
   },
+  "nodejs": {
+    "version": "stable",
+    "dependencies": [ "bower", "gulp" ]
+  },
   "run_list": [
-    "recipe[java]",
-    "recipe[maven]",
-    "recipe[openvpn]",
-    "recipe[sudo-nopasswd]",
-    "recipe[my-maven]",
-    "recipe[my-nodejs]",
-    "recipe[my-docker]",
-    "recipe[my-atom]",
-    "recipe[my-git]",
-    "recipe[my-synapse]",
-    "recipe[my-vim]",
-    "recipe[my-sublime-text]",
-    "recipe[google-chrome]",
-    "recipe[vagrant]"
+    "recipe[google-chrome]"
   ]
 }
