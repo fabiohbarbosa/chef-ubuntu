@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get update
 sudo rm -rf local-mode-cache/ nodes/ Berksfile.lock
 cd docker && \
   docker-compose stop && \

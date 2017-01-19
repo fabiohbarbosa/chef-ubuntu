@@ -15,6 +15,14 @@
     "dependencies": [ "bower", "gulp" ]
   },
   "run_list": [
-    "recipe[google-chrome]"
+    "recipe[java]",
+    "recipe[maven]",
+    "recipe[my-atom]",
+    "recipe[my-docker]",
+    "recipe[my-maven]",
+    "recipe[my-sublime-text]",
+    "recipe[my-vim]",
+    "recipe[sudo-nopasswd]"
   ]
+
 }
