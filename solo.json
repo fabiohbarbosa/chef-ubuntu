@@ -22,7 +22,8 @@
     "recipe[my-maven]",
     "recipe[my-sublime-text]",
     "recipe[my-vim]",
-    "recipe[sudo-nopasswd]"
+    "recipe[sudo-nopasswd]",
+    "recipe[google-chrome]"
   ]
 
 }
